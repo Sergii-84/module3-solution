@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>module3</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Module3</title>
+
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Food, LCC</a>
+    </div>
+
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        
+        <li class="dropdown">
+            <li><a href="#Chicken">Chicken</a></li>
+            <li class="divider"></li>
+            <li><a href="#Beef">Beef</a></li>
+            <li class="dropdown-divider"></li>
+            <li><a href="#Sushi">Sushi</a></li>
+      </ul>
+    </div>
+ 
+</nav>
+  
+  <h1>Our Menu</h1>
+
+<section class="column-lg-12 colmn-md-12 colmn-sm-12">
+		<div id="Chicken">
+			<p class="Chicken">Chicken</p>
+			<p class="content">
+			 You can grill chicken indoors using a grill pan or electric grill. Our favorite grill pan is made out of cast iron. Well seasoned cast iron can bring a lot of flavor to your food.
+			</p>
+		</div>
+	</section>
+	<section class="column-lg-12 colmn-md-12 colmn-sm-12">
+		<div id="Beef">
+			<p class="Beef">Beef</p>
+			<p class="content">Beef is the culinary name for meat from bovines, especially cattle. Beef can be harvested from cows, bulls, heifers or steers. Acceptability as a food source varies in different parts of the world.</p>
+		</div>
+	</section>
+	<section class="column-lg-12 colmn-md-12 colmn-sm-12">
+	<div id="Sushi">
+		<p class="Sushi">Sushi</p>
+			<p class="content">Sushi is traditionally made with medium-grain white rice, though it can be prepared with brown rice or short-grain rice. It is very often prepared with seafood, such as squid, eel, yellowtail, salmon, tuna or imitation crab meat.</p>
+	</div>
+
+</body>
+
+
+
+<Style>
+	
+* {
+		box-sizing: border-box;
+	}
+
+	body {
+		background-color: white;
+	}
+
+	h1 {
+		margin: 30px;
+		text-align: center;
+		font-family: Helvetica;
+		font-weight: bold;
+		font-size: 175%;
+	}
+
+	section {
+		position: relative;
+		padding: 15px;
+		width: 100%;
+	}
+
+	p {
+		position: relative;
+		clear: right;
+	}
+
+	div {
+		position: relative;
+		background-color: gray;
+		border: 1px solid black;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+	}
+
+	.Chicken {
+		float: right;
+		color: black;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: red;
+		
+	}
+
+	.Beef {
+		float: right;
+		color: black;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: green;
+		
+	}
+
+	.Sushi {
+		float: right;
+		color: black;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: blue;
+		
+	}
+
+	.content {
+		padding-top: 40px;
+		padding-right: 5px;
+		border: none;
+		background-color: gray;
+		font-family: Helvetica;
+		color: black;
+		margin: 0px;
+		height: 1000px;
+		overflow: auto;
+	}
+	
+	.row {
+		width: 90%;
+	}
+	
+	
+	@media (min-width: 992px){
+		.column-lg-4 {
+			float: left;
+			width: 33.33%;
+		}
+	}
+	
+	@media (min-width: 768px) and (max-width: 991px){
+		.colmn-md-6 {
+			float: left;
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.colmn-md-12 {
+			float: left;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	
+	@media (max-width: 767px){
+		.colmn-sm-12 {
+			float: left;
+			width: 100%;
+		}
+	}
+	
+</Style>>
+</html>
+
+
+
